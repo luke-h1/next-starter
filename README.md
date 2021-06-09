@@ -2,6 +2,10 @@
 
 A Next.js starter that includes the barebones for starting an awesome project!.
 
+![next-ts](./next-ts.png)
+
+
+
 - ✅ **Emotion CSS** - Styled components
 - 🚀 **ESLint** — Typescript / Javascript linter (airbnb config)
 - 🔥 **Prettier** - Opinionated Code Formatter
