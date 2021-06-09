@@ -8,6 +8,9 @@ A Next.js starter that includes the barebones for starting an awesome project!.
 - 🐕 **Husky** — Use git hooks with ease
 - 🚫 **lint-staged** - Run linters against staged git files
 - 😎 **Absolute import** - Import folders and files using the `@` prefix
+- 👻 **Jest** - Unit tests
+- 💅 **Cypress** - e2e tests
+
 
 ## 🚀 Getting started
 
