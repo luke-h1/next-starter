@@ -6,7 +6,7 @@
 
 
 
-- ✅ **Emotion CSS** - Styled components
+- ✅ **Emotion CSS** - Styled components library
 - 🚀 **ESLint** — Typescript / Javascript linter (airbnb config)
 - 🔥 **Prettier** - Opinionated Code Formatter
 - 🐕 **Husky** — Use git hooks with ease
@@ -15,13 +15,12 @@
 - 👻 **Jest** - Unit tests
 - 💅 **Cypress** - e2e tests
 
-
 ## 🚀 Getting started
 
 you can clone this repository and run the following commands inside the project folder:
 
-1. `npm install` or `yarn`;
-2. `yarn dev` or `npm run dev`;
+1. `npm install` or `yarn`
+2. `yarn dev` or `npm run dev`
 
 To view the project open `http://localhost:3000`.
 
