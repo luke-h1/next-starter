@@ -1,6 +1,6 @@
 <br>
 
-## A Next.js starter that includes the barebones for starting an awesome project!.
+## A Next.js starter that includes the barebones for starting an awesome project!
 
 ![next-ts](./next-ts.png)
 
