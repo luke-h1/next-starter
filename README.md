@@ -26,10 +26,10 @@ To view the project open `http://localhost:3000`.
 
 ## 🙏 Contributing
 
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
-5. Create a pull request via Github
+1. Create your branch: `git checkout -b my-new-feature`;
+2. Commit your changes: `git commit -m 'Add some feature'`;
+3. Push to the branch: `git push origin my-new-feature`.
+4. Create a pull request via Github
 
 **After your pull request is merged**, you can safely delete your branch.
 
