@@ -35,7 +35,7 @@ const Nav = styled.nav`
   flex: 1;
   position: relative;
   padding-left: 50px;
-  .nav-link { 
+  .nav-link {
     margin: 0 10px 0 10px;
   }
 `;
