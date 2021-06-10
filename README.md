@@ -14,6 +14,7 @@
 - 😎 **Absolute import** - Import folders and files using the `@` prefix
 - 👻 **Jest** - Unit tests
 - 💅 **Cypress** - e2e tests
+- ✨ **Github Actions** - Continuous integration builds / tests
 
 ## 🚀 Getting started
 
