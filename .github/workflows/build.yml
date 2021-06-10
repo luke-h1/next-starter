@@ -16,10 +16,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: luke-h1/checkout@v2.3.4
 
       - name: Cache
-        uses: actions/cache@v2
+        uses: luke-h1/cache@v2
         with:
           path: |
             ~/cache
@@ -29,7 +29,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
 
       - name: Use (Volta) Node.js ${{ matrix.node-version }}
-        uses: actions/action@v1.6.0
+        uses: luke-h1/action@v1.6.0
         with:
           node-version: ${{ matrix.node-version }}
       

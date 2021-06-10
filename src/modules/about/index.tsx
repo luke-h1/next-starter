@@ -1,32 +1,23 @@
 import { Title } from '@src/components/Title';
 import { FiGithub } from 'react-icons/fi';
+import { AboutTech } from '@src/data/AboutTech';
 import { Flex } from './components/Flex';
 
 const index = () => {
   return (
     <Flex>
-      <Title>About this starter</Title>
+      <Title data-testid="about-title">About this starter</Title>
       <h2 className="sub-heading">
         Simple starter aimed at providing the barebones to start an awesome
         project.
       </h2>
       <ul className="list">
-        <li className="list-item">
-          ✅ Emotion CSS - Styled components library
-        </li>
-        <li className="list-item">
-          🚀 ESLint — Typescript / Javascript linter (airbnb config)
-        </li>
-        <li className="list-item">🔥 Prettier - Opinionated Code Formatter</li>
-        <li className="list-item">🐕 Husky — Use git hooks with ease</li>
-        <li className="list-item">
-          🚫 lint-staged - Run linters against staged git files
-        </li>
-        <li className="list-item">
-          😎 Absolute import - Import folders and files using the @ prefix
-        </li>
-        <li className="list-item">👻 Jest - Unit tests</li>
-        <li className="list-item">💅 Cypress - e2e tests</li>
+        {AboutTech
+          && AboutTech.map((item) => (
+            <li className="list-item" key={item.id}>
+              {item.name}
+            </li>
+          ))}
       </ul>
       <div className="source">
         <a
