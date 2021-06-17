@@ -1,6 +1,6 @@
 export const AboutTech: { name: string; id: number }[] = [
   {
-    name: '✅ Emotion CSS - Styled components library',
+    name: '👩‍🎤 Emotion CSS - Styled components library',
     id: 1,
   },
   {

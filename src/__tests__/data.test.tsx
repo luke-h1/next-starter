@@ -3,7 +3,7 @@ import { AboutTech } from '../data/AboutTech';
 test('Links data is correct', () => {
   expect(AboutTech).toHaveLength(11);
   expect(AboutTech.map((l) => l.name)).toEqual([
-    '✅ Emotion CSS - Styled components library',
+    '👩‍🎤 Emotion CSS - Styled components library',
     '🚀 ESLint — Typescript / Javascript linter (airbnb config)',
     '🔥 Prettier - Opinionated Code Formatter',
     '🐕 Husky — Use git hooks with ease',
