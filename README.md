@@ -6,7 +6,7 @@
 
 
 
-- ✅ **Emotion CSS** - Styled components library
+- 👩‍🎤 **Emotion CSS** - Styled components library
 - 🚀 **ESLint** — Typescript / Javascript linter (airbnb config)
 - 🔥 **Prettier** - Opinionated Code Formatter
 - 🐕 **Husky** — Use git hooks with ease
@@ -15,6 +15,8 @@
 - 👻 **Jest** - Unit tests
 - 💅 **Cypress** - e2e tests
 - ✨ **Github Actions** - Continuous integration builds / tests
+- ✅ **font-source** - self hosted open source fonts
+- 🍉 **Google-analytics** - Analytics
 
 ## 🚀 Getting started
 
