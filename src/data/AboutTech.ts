@@ -35,4 +35,12 @@ export const AboutTech: { name: string; id: number }[] = [
     name: '✨ Github Actions - Continuous integration builds / tests',
     id: 9,
   },
+  {
+    name: '✅ font-source - self hosted open source fonts',
+    id: 10,
+  },
+  {
+    name: '🍉 Google-analytics - Analytics',
+    id: 11,
+  },
 ];

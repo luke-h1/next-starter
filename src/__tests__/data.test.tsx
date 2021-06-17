@@ -1,7 +1,7 @@
 import { AboutTech } from '../data/AboutTech';
 
 test('Links data is correct', () => {
-  expect(AboutTech).toHaveLength(9);
+  expect(AboutTech).toHaveLength(11);
   expect(AboutTech.map((l) => l.name)).toEqual([
     '✅ Emotion CSS - Styled components library',
     '🚀 ESLint — Typescript / Javascript linter (airbnb config)',
@@ -12,6 +12,8 @@ test('Links data is correct', () => {
     '👻 Jest - Unit tests',
     '💫 Cypress - e2e tests',
     '✨ Github Actions - Continuous integration builds / tests',
+    '✅ font-source - self hosted open source fonts',
+    '🍉 Google-analytics - Analytics',
   ]);
 });
 
@@ -32,7 +34,8 @@ test('AboutTech returns with github actions as last item', () => {
   const Link7 = AboutTech[6];
   const Link8 = AboutTech[7];
   const Link9 = AboutTech[8];
-
+  const Link10 = AboutTech[9];
+  const Link11 = AboutTech[10];
   const i = jest.fn((l) => l.name);
   i(Link1);
   i(Link2);
@@ -43,8 +46,8 @@ test('AboutTech returns with github actions as last item', () => {
   i(Link7);
   i(Link8);
   i(Link9);
+  i(Link10);
+  i(Link11);
 
-  expect(i).toHaveLastReturnedWith(
-    '✨ Github Actions - Continuous integration builds / tests'
-  );
+  expect(i).toHaveLastReturnedWith('🍉 Google-analytics - Analytics');
 });
