@@ -1,9 +1,8 @@
 import { AboutTech } from '../data/AboutTech';
 
 test('Links data is correct', () => {
-  expect(AboutTech).toHaveLength(11);
+  expect(AboutTech).toHaveLength(10);
   expect(AboutTech.map((l) => l.name)).toEqual([
-    '👩‍🎤 Emotion CSS - Styled components library',
     '🚀 ESLint — Typescript / Javascript linter (airbnb config)',
     '🔥 Prettier - Opinionated Code Formatter',
     '🐕 Husky — Use git hooks with ease',
@@ -35,7 +34,6 @@ test('AboutTech returns with github actions as last item', () => {
   const Link8 = AboutTech[7];
   const Link9 = AboutTech[8];
   const Link10 = AboutTech[9];
-  const Link11 = AboutTech[10];
   const i = jest.fn((l) => l.name);
   i(Link1);
   i(Link2);
@@ -47,7 +45,5 @@ test('AboutTech returns with github actions as last item', () => {
   i(Link8);
   i(Link9);
   i(Link10);
-  i(Link11);
-
   expect(i).toHaveLastReturnedWith('🍉 Google-analytics - Analytics');
 });
