@@ -1,6 +1,4 @@
-import { Container } from '@src/components/Container';
 import Navbar from '@src/components/nav';
-import { Reset } from '@src/styles/Reset';
 import type { AppProps } from 'next/app';
 import '@fontsource/noto-sans-jp';
 import { useRouter } from 'next/dist/client/router';
@@ -21,11 +19,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events]);
   return (
     <>
-      <Reset />
       <Navbar />
-      <Container>
-        <Component {...pageProps} />
-      </Container>
+      <Component {...pageProps} />
     </>
   );
 }

@@ -1,4 +1,3 @@
-import { Title } from '@src/components/Title';
 import { FiGithub } from 'react-icons/fi';
 import { AboutTech } from '@src/data/AboutTech';
 import { Flex } from './components/Flex';
@@ -6,7 +5,7 @@ import { Flex } from './components/Flex';
 const index = () => {
   return (
     <Flex>
-      <Title data-testid="about-title">About this starter</Title>
+      <h1 data-testid="about-title">About this starter</h1>
       <h2 className="sub-heading">
         Simple starter aimed at providing the barebones to start an awesome
         project.
