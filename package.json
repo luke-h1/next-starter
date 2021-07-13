@@ -55,7 +55,7 @@
     "husky": "^7.0.1",
     "jest": "^27.0.4",
     "jest-junit": "^12.1.0",
-    "jest-resolve": "^27.0.4",
+    "jest-resolve": "^27.0.6",
     "jest-serializer-html": "^7.0.0",
     "jest-watch-typeahead": "^0.6.4",
     "lint-staged": "^11.0.0",
