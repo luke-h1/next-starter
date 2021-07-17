@@ -1,4 +1,3 @@
-import Navbar from '@src/components/nav';
 import type { AppProps } from 'next/app';
 import '@fontsource/noto-sans-jp';
 import { useRouter } from 'next/dist/client/router';
@@ -19,7 +18,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events]);
   return (
     <>
-      <Navbar />
       <Component {...pageProps} />
     </>
   );
