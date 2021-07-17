@@ -42,11 +42,8 @@ jobs:
       - name: lint
         run: npm run lint
 
-      - name: Jest unit tests
+      - name: frontend unit tests
         run: npm run test:ci
-
-      - name: Cypress e2e tests 
-        run: npm run cypress:ci 
       
       - name: tsc
         run: npm run tsc
