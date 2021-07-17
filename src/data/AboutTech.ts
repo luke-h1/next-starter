@@ -24,19 +24,15 @@ export const AboutTech: { name: string; id: number }[] = [
     id: 6,
   },
   {
-    name: '💫 Cypress - e2e tests',
+    name: '✨ Github Actions - Continuous integration builds / tests',
     id: 7,
   },
   {
-    name: '✨ Github Actions - Continuous integration builds / tests',
+    name: '✅ font-source - self hosted open source fonts',
     id: 8,
   },
   {
-    name: '✅ font-source - self hosted open source fonts',
-    id: 9,
-  },
-  {
     name: '🍉 Google-analytics - Analytics',
-    id: 10,
+    id: 9,
   },
 ];
