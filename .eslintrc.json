@@ -40,5 +40,4 @@
         "react/no-unescaped-entities": "off",
         "no-multi-str": "off"
     },
-    "ignorePatterns": ["node_modules/", ".next/", "cypress", "src/types/env.d.ts", "src/__tests__/*.*", "test", "src/__mocks__"]
-}
+    "ignorePatterns": ["node_modules/", ".next/", "cypress", "src/types/env.d.ts", "src/__tests__/*.*", "test", "src/__mocks__"]}
